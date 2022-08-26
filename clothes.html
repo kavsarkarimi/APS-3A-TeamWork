@@ -8,17 +8,15 @@
 </head>
 <body>
     <header>
-
         <h1>Clothes Page</h1>
-     main
         <nav class="crumbs">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Car</a></li>
-            <li><a href="#">Motorcycle</a></li>
+            <li><a href="cars.html">Car</a></li>
+            <li><a href="motorcycle.html">Motorcycle</a></li>
             <li><a href="#">Food</a></li>
-            <li><a href="#">Clothes</a></li>
-            <li><a href="#">Furniture</a></li>
+            <li><a href="clothes.html">Clothes</a></li>
+            <li><a href="furnitures.html">Furniture</a></li>
           </ul>
         </nav>
     </header>
@@ -54,8 +52,7 @@
           </table>
       </details>
     </figure>
-    <h3>Order:</h3>
-    <fieldset>
+    <fieldset><legend>Order:</legend>
       <label for="Color">Color:</label>
       <select name="color" id="Color">
         <option value="C1">Blue</option>
@@ -93,8 +90,7 @@
           </table>
       </details>
     </figure>
-    <h3>Order:</h3>
-    <fieldset>
+    <fieldset><legend>Order:</legend>
       <label for="Color">Color:</label>
       <select name="color" id="Color">
         <option value="C1">Pink</option>
@@ -132,8 +128,7 @@
           </table>
       </details>
     </figure>
-    <h3>Order:</h3>
-    <fieldset>
+    <fieldset><legend>Order:</legend>
       <label for="Color">Color:</label>
       <select name="color" id="Color">
         <option value="C1">Purple</option>
@@ -171,8 +166,7 @@
           </table>
       </details>
     </figure>
-    <h3>Order:</h3>
-    <fieldset>
+    <fieldset><legend>Order:</legend>
       <label for="Color">Color:</label>
       <select name="color" id="Color">
         <option value="C1">Red</option>
@@ -190,7 +184,28 @@
       <input type="submit" value="Add to cart">
     </fieldset>
   </section>
+  <section id="form">
+    <h2>Complete your order:</h2>
+    <form action="">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Please write your full name">
+      <br><br>
+      <label for="phone number">Phone number:</label>
+      <input type="text" id="phone number" name="Phone Number">
+      <br><br>
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="Address">
+      <br><br>
+      <h4>Select Payment:</h4>
+      <label for="paypal">PayPal</label>
+      <input type="radio" id="paypal" name="payment">
+      <label for="credit">Credit Cards</label>
+      <input type="radio" id="credit" name="payment">
+      <label for="cash">COD (cash on delivery)</label>
+      <input type="radio" id="cash" name="payment">
+      <input type="submit" value="submit">
+    </form>
+  </section>
 </main>
 </body>
- main
 </html>
